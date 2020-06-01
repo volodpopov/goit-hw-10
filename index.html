@@ -8,74 +8,57 @@
     <title>goit-hw-10</title>
   </head>
   <body>
-    <header class="container hero-header">
-      <a class="logo" href="#">MoGo</a>
-      <nav class="nav">
-        
-          <ul class="nav-list">
-            <li class="nav-list__item">
-              <a class="nav-list__item-link" href="#">about</a>
-           </li>
-            <li class="nav-list__item">
-             <a class="nav-list__item-link" href="#">service</a>
-           </li>
-           <li class="nav-list__item">
-             <a class="nav-list__item-link" href="#">work</a>
-           </li>
-           <li class="nav-list__item">
-              <a class="nav-list__item-link" href="#">blog</a>
+    <header class="hero-header">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo" href="#">MoGo</a>
+          <ul class="menu-list">
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">about</a>
             </li>
-            <li class="nav-list__item">
-              <a class="nav-list__item-link" href="#">contact</a>
-           </li>
-          <li class="nav-list__item">
-            <a class="nav-list__item-link" href="#">
-              <svg class="nav-list__item-link-svg" xmlns="http://www.w3.org/2000/svg" width="17.62" height="18"
-                viewBox="0 0 17.62 18">
-                <path id="SHOPPING_CART" data-name="SHOPPING CART"
-                  d="M1501.73,40.663h0l-2.48,5.5h0a0.815,0.815,0,0,1-.7.484h0l-7.12.475,0.41,1.177h7.76a1.65,1.65,0,1,1-1.65,1.651h-7.7a1.65,1.65,0,1,1-1.65-1.651h1.49l-3.18-9.075h-1.89a0.825,0.825,0,0,1,0-1.65h2.48a0.835,0.835,0,0,1,.78.554h0l0.48,1.373h12.21a0.826,0.826,0,0,1,.83.825A0.941,0.941,0,0,1,1501.73,40.663Zm-12.39.487,1.52,4.357,7.09-.473,1.75-3.884h-10.36Z"
-                  transform="translate(-1484.19 -35.578)" />
-              </svg>
-            </a>
-          </li>
-          <li class="nav-list__item">
-            <a class="nav-list__item-link" href="#"><svg class="nav-list__item-link-svg" xmlns="http://www.w3.org/2000/svg"
-                width="17.62" height="17.625" viewBox="0 0 17.62 17.625">
-                <path id="MAGNIFYING_GLASS" data-name="MAGNIFYING GLASS"
-                  d="M1561.32,50.983a1.652,1.652,0,0,1-2.34,2.334h0l-4.83-4.836a6.627,6.627,0,1,1,2.33-2.334l4.84,4.836h0ZM1550.8,37.849a4.95,4.95,0,1,0,4.95,4.95A4.953,4.953,0,0,0,1550.8,37.849Z"
-                  transform="translate(-1544.19 -36.188)" />
-              </svg>
-            </a>
-          </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">service</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">work</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">blog</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">contact</a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">
+                <svg class="menu-list__icon menu-list__icon_cart">
+                  <title>icon-cart</title>
+                  <use href="./images/icons/sprite.svg#icon-cart"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-list__item">
+              <a class="menu-list__link" href="#">
+                <svg class="menu-list__icon menu-list__icon_glass">
+                  <title>icon-glass</title>
+                  <use href="./images/icons/sprite.svg#icon-glass"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-
-          <!-- <ul class="nav__icon-list">
-            <li class="nav__icon-list-item">
-             <a href="#" class="nav__icon-list-item-link">
-               <span class="visually-hidden">magnifying glass</span>
-             </a>
-            </li>
-            <li>
-              <button class="nav__icon-list-item-btn">
-                <span class="visually-hidden">shopping cart</span>
-              </button>
-            </li>
-          </ul> -->
-
-        
-      </nav>
+        </nav>
+      </div>
     </header>
     <section class="hero-section">
       <p class="hero-section__description">Creative Template</p>
       <h1 class="hero-section__titel">
-        Welcome <span class="--under">to MoGo</span>
+        Welcome <span class="under">to MoGo</span>
       </h1>
-      <button class="hero-section__btn">Learn more</button>
+      <button class="modal-btn">Learn more</button>
     </section>
     <main>
       <section class="container services">
         <h2 class="section-titel">
-          <span class="section-titel__description">We work with</span>
+          <span class="section-description">We work with</span>
           Amazing Services</h2>
         <ul class="services__list">
           <li class="services__list-item">
@@ -84,9 +67,9 @@
                 <use href="./images/icons/sprite.svg#icon-alarm"></use>
               </svg>
             </div>
-            <div class="services__list-item-wrapper">
-              <h3 class="services__list-item-titel">Photography</h3>
-              <p class="services__list-item-description">
+            <div class="services__list-text-wrapper">
+              <h3 class="services__list-titel">Photography</h3>
+              <p class="services__list-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
               </p>
@@ -98,9 +81,9 @@
                 <use href="./images/icons/sprite.svg#icon-linegraph"></use>
               </svg>
             </div>
-            <div class="services__list-item-wrapper">
-              <h3 class="services__list-item-titel">Web Design</h3>
-              <p class="services__list-item-description">
+            <div class="services__list-text-wrapper">
+              <h3 class="services__list-titel">Web Design</h3>
+              <p class="services__list-description">
               Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor.
               </p>
@@ -112,9 +95,9 @@
                 <use href="./images/icons/sprite.svg#icon-computer"></use>
               </svg>
             </div>
-            <div class="services__list-item-wrapper">
-              <h3 class="services__list-item-titel">Creativity</h3>
-              <p class="services__list-item-description">
+            <div class="services__list-text-wrapper">
+              <h3 class="services__list-titel">Creativity</h3>
+              <p class="services__list-description">
               Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor.
               </p>
@@ -126,9 +109,9 @@
                 <use href="./images/icons/sprite.svg#icon-book"></use>
               </svg>
             </div>
-            <div class="services__list-item-wrapper">
-              <h3 class="services__list-item-titel">seo</h3>
-              <p class="services__list-item-description">
+            <div class="services__list-text-wrapper">
+              <h3 class="services__list-titel">seo</h3>
+              <p class="services__list-description">
               Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
               </p>
             </div>
@@ -139,9 +122,9 @@
                 <use href="./images/icons/sprite.svg#icon-home"></use>
               </svg>
             </div>
-            <div class="services__list-item-wrapper">
-              <h3 class="services__list-item-titel">Css&#8260Html</h3>
-              <p class="services__list-item-description">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+            <div class="services__list-text-wrapper">
+              <h3 class="services__list-titel">Css&#8260Html</h3>
+              <p class="services__list-description">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
             </div>
           </li>
           <li class="services__list-item">
@@ -150,66 +133,67 @@
                 <use href="./images/icons/sprite.svg#icon-image"></use>
               </svg>
             </div>
-            <div class="services__list-item-wrapper">
-              <h3 class="services__list-item-titel">digital</h3>
-              <p class="services__list-item-description">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <div class="services__list-text-wrapper">
+              <h3 class="services__list-titel">digital</h3>
+              <p class="services__list-description">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
             </div>
           </li>
         </ul>
       </section>
       <section class="container team">
         <h2 class="section-titel">
-          <span class="section-titel__description">Who we are</span>
+          <span class="section-description">Who we are</span>
           Meet our team</h2>
         <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim <span class="--under">veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
-        <ul class="team-list">
-          <li class="team-list__item">
-            <div class="team-list__img-wrapper">
+        aliqua. Ut enim ad minim <span class="under">veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
+        <ul class="team__list">
+          <li class="team__list-item">
+            <div class="team__list-img-wrapper">
                 <img srcset="./images/matthew.jpg 380w, ./images/matthew@2x.jpg 760w"
                 sizes="380px" height="470" src="./images/matthew.jpg" alt="Matthew"
-                class="team-list__img">
+                class="team__list-img">
               <div class="overlay">
-              <ul class="overlay-list">
-                <li class="overlay-list__item">
-                  <a href="#" class="overlay-list__item-link">
-                    <svg class="overlay-list__item-link-svg">
-                      <title>icon-facebook</title>
-                      <use href="./images/icons/sprite.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="overlay-list__item">
-                  <a href="#" class="overlay-list__item-link">
-                  <svg class="overlay-list__item-link-svg">
-                    <title>icon-twitter</title>
-                    <use href="./images/icons/sprite.svg#icon-twitter"></use>
-                  </svg>
-                </a></li>
-                <li class="overlay-list__item">
-                  <a href="#" class="overlay-list__item-link">
-                    <svg class="overlay-list__item-link-svg">
-                      <title>icon-pinterest</title>
-                      <use href="./images/icons/sprite.svg#icon-pinterest"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="overlay-list__item">
-                  <a href="#" class="overlay-list__item-link">
-                    <svg class="overlay-list__item-link-svg">
-                      <title>icon-instagram</title>
-                      <use href="./images/icons/sprite.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+                <ul class="overlay-list">
+                  <li class="overlay-list__item">
+                    <a href="#" class="overlay-list__item-link">
+                      <svg class="overlay-list__item-link-svg">
+                        <title>icon-facebook</title>
+                        <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="overlay-list__item">
+                    <a href="#" class="overlay-list__item-link">
+                      <svg class="overlay-list__item-link-svg">
+                        <title>icon-twitter</title>
+                        <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="overlay-list__item">
+                    <a href="#" class="overlay-list__item-link">
+                      <svg class="overlay-list__item-link-svg">
+                        <title>icon-pinterest</title>
+                        <use href="./images/icons/sprite.svg#icon-pinterest"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="overlay-list__item">
+                    <a href="#" class="overlay-list__item-link">
+                      <svg class="overlay-list__item-link-svg">
+                        <title>icon-instagram</title>
+                        <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
-            <h3 class="team-list__titel">Matthew Dix</h3>
-            <p class="team-list__description">Graphic Design</p>
+            <h3 class="team__list-titel">Matthew Dix</h3>
+            <p class="team__list-description">Graphic Design</p>
           </li>
-          <li class="team-list__item">
-            <div class="team-list__img-wrapper">
+          <li class="team__list-item">
+            <div class="team__list-img-wrapper">
                 <img srcset="./images/christopher.jpg 380w, ./images/christopher@2x.jpg 760w" 
                 sizes="380px" height="470" src="./images/christopher.jpg" alt="Christopher" 
                 class="team-list__img">
@@ -249,13 +233,13 @@
                 </ul>
               </div>
             </div>
-            <h3 class="team-list__titel">Christopher Campbell</h3>
-            <p class="team-list__description">
+            <h3 class="team__list-titel">Christopher Campbell</h3>
+            <p class="team__list-description">
               Branding&#8260UX design
             </p>
           </li>
-          <li class="team-list__item">
-            <div class="team-list__img-wrapper">
+          <li class="team__list-item">
+            <div class="team__list-img-wrapper">
               <img srcset="./images/michael.jpg 380w, ./images/michael@2x.jpg 760w" 
               sizes="380px" height="470" src="./images/michael.jpg" alt="Michael" 
               class="team-list__img">
@@ -295,8 +279,8 @@
               </ul>
             </div>
             </div>
-            <h3 class="team-list__titel">Michael Fertig</h3>
-            <p class="team-list__description">
+            <h3 class="team__list-titel">Michael Fertig</h3>
+            <p class="team__list-description">
               Developer
             </p>
           </li>
@@ -305,16 +289,16 @@
     </main>
     <footer class="container">
       <div class="form-wrapper">
-        <p class="footer__description">© 2016 MoGo free PSD template by 
-          <a href="" class="footer__description-link">Laaqiq</a>
+        <p class="footer-description">© 2016 MoGo free PSD template by 
+          <a href="" class="footer-link">Laaqiq</a>
         </p>
-      <form action="#" class="contact-form">
-        <input type="email" class="contact-form__input" placeholder="Your Email..." />
-        <button type="submit" class="contact-form__btn">
+        <form action="#" class="contact-form">
+          <input type="email" class="contact-form__input" placeholder="Your Email..." />
+          <button type="submit" class="contact-form__btn">
           Subscribe
-        </button>
-        </div>
-      </form>
+          </button>
+        </form>
+      </div>
     </footer>
   </body>
 </html>
